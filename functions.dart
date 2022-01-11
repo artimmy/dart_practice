@@ -4,6 +4,7 @@ void main()
   double result = calcPayment(1000);
   double total = result + bonus;
   print("Total payment: $total");
+
 }
 
 
@@ -14,8 +15,5 @@ void main()
   //print("Total Payment: $total"); commented because of the return
 }
  */
-
-//                                \/ this '=>' is equivalent to return the result of the following 
+//                                \/ this '=>' is equivalent to return the result of the following, but, if the function has more than 2 or 3 line the recommended would be to write it normally 
 double calcPayment(double payment) => payment - (payment * 0.1);
-
-
