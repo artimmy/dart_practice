@@ -13,10 +13,7 @@ class Animal
 
   Animal(this.color);
 
-  void eat()
-  {
-    print("Eating");
-  }
+  //Method
 }
 
 class Dog extends Animal
@@ -25,10 +22,7 @@ class Dog extends Animal
 
   Dog(String color, this.cEar) : super(color);// <><><><><><><>< constructor override ><><><><><><><> 
   
-  void bark()
-  {
-    print("Barking");
-  }
+  //Method
 }
 
 class Bird extends Animal
@@ -37,8 +31,5 @@ class Bird extends Animal
 
   Bird(String color, this.cFether) : super(color);// <><><><><><><>< constructor override ><><><><><><><> 
 
-  void fly()
-  {
-    print("Flying");
-  }
+  //Method
 }
