@@ -24,7 +24,7 @@ void main()
 
 class Car
 {
-  String name = "ARTHUR";
+  String name = "Volvo";
   void show()
   {
     print("A");
