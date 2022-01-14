@@ -1,7 +1,7 @@
 void main()
 {
   //Configurations config = new Configurations(); //with a static modifier we dont need to instantiate this class.
-  print(Configurations.appID);
+  print(Configurations.appID); //see? i just called it in the main
 }
 
 class Configurations
