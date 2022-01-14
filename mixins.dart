@@ -36,9 +36,8 @@ mixin Demented
 class Maestro with Musical, Aggressive, Demented 
 {
   String? name;
-  Maestro(String maestroName) 
+  Maestro(this.name) 
   {
-    name = maestroName;
     canConduct = true; 
   }
 }
