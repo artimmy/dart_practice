@@ -47,5 +47,5 @@ void main()
 {
   Maestro ma = new Maestro("Angelo");
   print(ma.name);
-  ma.entertainMe();
+  ma.entertainMe();// method inherited by the mixin
 }
