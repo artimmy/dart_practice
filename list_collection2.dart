@@ -1,6 +1,5 @@
 void main() 
 {
-  
   List<User> uList = [];
   uList.add(User("Arthur", 28));
   uList.add(User("Gabriel", 32));
@@ -14,6 +13,6 @@ class User
 {
   String? name;
   int? age;
-
+  //Constructor
   User(this.name, this.age);
 }
