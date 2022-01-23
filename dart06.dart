@@ -10,9 +10,12 @@ List<int> reverseList(List<int> list)
   print(y);
 
   List<int> l = [];
+  print(l);
 
   for (int i = y; i >= 0; i--) 
   {
+    print(list[i]);
+    
     l.add(list[i]);
     print(l[i]);
   }
