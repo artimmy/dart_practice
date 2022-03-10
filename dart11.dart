@@ -13,7 +13,7 @@ String longest(String a, String b)
   result.sort();
   // Remove duplicates
   result = result.toSet().toList();
-  // List<String> deleteDuplicates = LinkedHashSet<String>.from(concatenate).toList(); // works to >>> import 'dart:collection';
+  // List<String> deleteDuplicates = LinkedHashSet<String>.from(concatenate).toList(); // works too >>> import 'dart:collection';
   // Convert to string
   String end = result.join();
   return end;
