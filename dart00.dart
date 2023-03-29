@@ -12,4 +12,5 @@ String? smash(words)
   {
     stdout.write("${word} ");
   }
+  return null;
 }
